@@ -1,0 +1,1 @@
+fn main(){for i in 0..1001u16{if i.count_ones()%2==0{println!("{}",i)}}}
