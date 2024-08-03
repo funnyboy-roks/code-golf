@@ -10,9 +10,8 @@ if [ ! -f $1 ]; then
 fi
 
 CONTENT="
-const process = require('process');
+let arguments = require('process').argv.slice(2);
 print=console.log;
-let arguments = process.argv.slice(2);
 $(cat $FILE)
 "
 
