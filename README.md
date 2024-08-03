@@ -7,7 +7,7 @@ A collection of my solutions to problems on
 
 For compiling the C golfs, use [tcc](https://www.bellard.org/tcc/).
 
-The JavaScript golfs need to be wrapped in a function in order to be run
-by NodeJS or any JavaScript engine.
+The JavaScript golfs can be run using the `js.sh` script in this
+project.
 
 For Rust, just use `rustc`.
